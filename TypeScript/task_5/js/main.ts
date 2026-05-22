@@ -1,11 +1,11 @@
 interface MajorCredits {
   credits: number;
-  readonly brand: unique symbol;
+  readonly _majorCreditBrand: unique symbol;
 }
 
 interface MinorCredits {
   credits: number;
-  readonly brand: unique symbol;
+  readonly _minorCreditBrand: unique symbol;
 }
 
 function sumMajorCredits(
